@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>탄소 발자국 감소 퀴즈</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h4>모두가 함께 실천하는</h4>
+        <h1>탄소 발자국 감소</h1>
+        <div id="quiz">
+            <p id="question"></p>
+            <ul id="choices">
+                <li><button class="choice" onclick="selectAnswer(0)">Choice 1</button></li>
+                <li><button class="choice" onclick="selectAnswer(1)">Choice 2</button></li>
+                <li><button class="choice" onclick="selectAnswer(2)">Choice 3</button></li>
+                <li><button class="choice" onclick="selectAnswer(3)">Choice 4</button></li>
+            </ul>
+        </div>
+        <p id="result"></p>
+        <p id="explanation"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
